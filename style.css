@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #151c22; /* Dark blue/grey background */
+    color: #ecf0f1; /* Light text for contrast */
+}
+
+/* Top Bar */
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #151c22; /* Dark background for contrast */
+}
+
+.logo {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.menu a {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    color: #ffffff; /* Light text color */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Game Container */
+.game-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #219551; /* Green background for game container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Image Container */
+#image-container {
+    margin: 20px auto;
+}
+
+#current-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+/* Input and Button */
+#guess-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    background-color: #2ecc71;
+    border: 1px solid #2ecc71;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+#submit-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    background: #27ae60;
+}
+
+/* Score and Message */
+#score-display {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#message {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+/* Winning Message and Celebratory Photo */
+.hidden {
+    display: none;
+}
+
+#win-message {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+#celebratory-photo {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Restart Button */
+#restart-btn {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 20px auto 0;
+    cursor: pointer;
+}
+
+#restart-btn:hover {
+    background: #c0392b;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top-bar">
+    <img src="images/pump.png" alt="Logo" class="logo">
+    <nav class="menu">
+      <a href="#how-it-works">[how it works]</a>
+      <a href="#advanced">[advanced]</a>
+      <a href="#support">[support]</a>
+    </nav>
+  </header>
+
+  <div class="game-container">
+    <h1>Pump Ticker Fun</h1>
+    <div id="image-container">
+      <img id="current-image" src="images/image1.jpg" alt="Game Image">
+    </div>
+    <input type="text" id="guess-input" placeholder="Type your guess here">
+    <button id="submit-btn">Submit</button>
+    <p id="score-display">Score: 0</p>
+    <p id="message"></p>
+    <p id="win-message" class="hidden">Congratulations! You guessed all the images!</p>
+    <img id="celebratory-photo" src="images/22.jpg" alt="Celebratory Image" class="hidden">
+    <button id="restart-btn" class="hidden">Restart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
